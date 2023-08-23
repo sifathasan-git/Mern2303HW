@@ -42,7 +42,7 @@ function multiplication_table(number1,number2){
     for(let i=num1;i<=num2;i++){
         for(let j=1; j<=10;j++){
            let result=i*j;
-            document.write(`${i}X${j}=${result} <br>`);
+            console.log(`${i}X${j}=${result} <br>`);
         }
         
     }
