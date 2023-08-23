@@ -31,3 +31,20 @@ function Leap_yearCheck(){
      }
 }
 document.getElementById('test').innerHTML="<font size='22px'></font>"
+
+    // let number1 = document.getElementById("1st_table").value;
+    // let number2 = document.getElementById("2nd_table").value;
+    let num1 = window.prompt("enter 1st number");
+    let num2 = window.prompt("enter 2st number");
+function multiplication_table(number1,number2){
+    
+    
+    for(let i=num1;i<=num2;i++){
+        for(let j=1; j<=10;j++){
+           let result=i*j;
+            document.write(`${i}X${j}=${result} <br>`);
+        }
+        
+    }
+}
+multiplication_table();
